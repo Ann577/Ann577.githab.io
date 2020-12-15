@@ -1,0 +1,438 @@
+@font-face {
+    font-family: "AWAKENNING STEEL Personal Use";
+    src: url(fonts/AWAKENNING\ STEEL\ Personal\ Use.ttf);
+}   
+
+
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #fff;
+    -webkit-font-smoothing: antialiased; /*сглаживает шрифты*/
+   }
+
+
+   *,
+   *:before,
+   *:after {
+       box-sizing: border-box;
+   }
+
+   h1,h2,h3,h4,h5,h6 {
+       padding: 0;
+   }
+
+   p {
+       margin: 0 0 10px;
+   }
+
+   /* Containter
+   ============================*/
+
+   .container {
+       width: 100%;
+       max-width: 1200px;
+       margin: 0 auto;
+       padding: 0 15px;
+   }
+
+
+
+    /* Header
+   ============================*/
+   .header {
+       width: 100%;
+       height: 100px;
+       position: absolute; 
+       top: 0;
+       left: 0;
+       z-index: 1000;
+       background-image: url(img/image\ 2.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-bottom: 2px solid #fff; 
+   }
+
+   .header__img{
+       width: 70%;
+   }
+
+   .header__inner {
+       padding: 35px 0; 
+       align-items: center; 
+   }
+
+
+   
+    /* Nav
+   ============================*/
+   .nav {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+
+   .nav__link:hover {
+       text-decoration: underline;
+   }
+
+   .nav__link {
+       margin-left: 50px; 
+       color: #fff;
+       font-size: 13px;
+       text-transform: uppercase;
+       text-decoration: none;
+   }
+
+   .nav__link:first-child {
+        margin-left: 0;
+   }
+    /* intro
+    ============================*/
+
+   .intro {
+       width: 100%;
+       display: flex;
+       flex-direction: column; 
+       padding-top: 100px; 
+       height: 750px;
+   }
+
+   .intro__img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center center;
+        z-index: -1;
+        object-fit: cover;
+ }
+
+   .intro__subtitle {
+       margin: 0;
+       font-family: "AWAKENNING STEEL Personal Use";
+       font-weight: 400;
+       font-size: 64px;
+       text-transform: uppercase;
+       line-height: 160px;
+       color: #000;
+   }
+
+   .intro__subtitle2 {
+       margin: 0;
+       font-family: "AWAKENNING STEEL Personal Use";
+       font-weight: 400;
+       font-size: 64px;
+       text-transform: uppercase;
+       color: #000;
+       line-height: 160px;
+       margin-left: 120px;
+}
+
+    .intro__title {
+        font-family: "AWAKENNING STEEL Personal Use";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120px;
+        margin-left: 40px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    .intro__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        height: 936px;
+    }
+
+
+    .main__bg {
+        position: absolute;
+        width: 100%;
+        height: 936px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .main__search {
+        font-size: 54px;
+        text-decoration: none;
+        color: #D3974E;
+    }
+
+    .place {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .date {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .people {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .start {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .main__search:hover {
+        color: #e7932c;
+    }
+    
+    .table {
+        width: 100%;
+        font-size: 24px;
+        margin: 0 0 177px;
+    }
+
+    .main__flex {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .main__img {
+        width: 50%;
+    }
+
+    .main__flex-item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .main__info {
+        width: 525px;
+        height: 125px;
+        border: 2px solid #fff;
+        padding: 10px;
+    }
+
+    .namecostume {
+        color: #D3974E;
+    }
+
+    .infocostume {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .aboutcostume {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .information {
+        width: 295px;
+        height: 160px;
+        margin-top: 50px;
+    }
+
+    .btn {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: inherit;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 14px 40px;
+        border-radius: 3px;
+        border: 0;
+        cursor: pointer;
+        transition: background .2s linear;
+    }
+
+    .btn--red {
+        background-color: #e84545;
+    }
+ 
+    .btn--red:hover {
+        background-color: #e93939;
+    }
+
+    .more {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .more2 {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    .costume2 {
+        color:  #D3974E;
+    }
+
+    .david-wade {
+        width: 100px;
+        Height: 1212px;
+        
+    }
+
+    .wade-bg {
+        position: absolute;
+        height: 1212px;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .feedback-div {
+
+        text-align: center;
+        Width: 380px;
+        height: 150px;
+    }
+    
+    .feedback {
+        color: #000;
+        font-weight: 700;
+    }
+
+    .wade-feedback {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .other {
+        margin: 0 auto;
+        height: 1400px;
+        z-index: 1;
+    }
+    
+    .other-bg {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        height: 1400px;
+    }
+    
+    .other__inner {
+        padding: 35px 0;
+        border-bottom: 1px solid #fff; 
+    }
+
+   .discover {
+       padding: 15px;
+       text-align: center;
+   }
+
+   .name {
+        color: #D3974E;
+        font-size: 18px;
+        text-transform: uppercase;
+   }
+
+   .other-title {
+       font-size: 26px;
+       text-transform: uppercase;
+   }
+
+   .other__inner {
+       margin: 0 auto;
+   }
+
+   .nav__link2 {
+        margin-left: 50px; 
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-decoration: none;
+        opacity: .75;
+    }
+
+    .nav__link2:hover {
+        opacity: 1;
+        transition: opacity .3s linear;
+    }
+
+    .planet {
+        margin: 0 auto;
+        width: 1276px;
+        height: 654px;
+    }
+    
+    .flex-planet {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .redplanet {
+        width: 400px;
+        height: 236px;
+    }
+
+    .about-planet {
+        font-size: 18px;
+    }
+
+    .redplan {
+        height: 500px;
+        width: 500px;
+    }
+
+    .plan-ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .to-book {
+        text-align: center;
+    }
+
+    .info-plan {
+        text-transform: uppercase;
+        list-style-type: none;
+    }
+
+    .about-item {
+        text-align: center;
+    }
+
+    .informations {
+        font-size: 14px;
+        text-transform: uppercase;
+        color:#D3974E;
+    }
+
+    .planutrip {
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .plan {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    
+
+    .plan__item {
+        padding: 0 30px; 
+        margin: 30px 0;
+        width: 25%; 
+        text-align: center;
+    }
+
+    .plan__title {
+        color: #e7932c;
+    }
+
+    .plan__icon {
+        width: 150px;
+        height: 150px;
+    }
